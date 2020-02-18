@@ -40,12 +40,14 @@ html, body {
     position: fixed;
     left: 0;
     padding-top: 64px;
+    z-index: 1;
 }
 
 .app-content {
     margin-top: 64px;
     position: absolute;
     width: 100%;
+    z-index: 0;
 }
 
 .app-box {
@@ -74,4 +76,5 @@ li {
     padding-left: 24px;
     padding-top: 8px;
     cursor: pointer;
+    font-size: 18px;
 }
